@@ -1,0 +1,534 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, #EEF5FC.23%, #eef5fc 100%);
+  background: linear-gradient(180deg, #EEF5FC.23%, #eef5fc 100%) !important;
+}
+.heade-area {
+  position: absolute;
+  display: flex;
+  border: 1px solid #e0e0e0 !important;
+  background-color: white !important;
+  width: 100vw;
+  height: 50px;
+  overflow: hidden;
+}
+.lexx-logo {
+  position: absolute;
+  height: 48px;
+  width: 84px;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+.text-mid {
+  width: 530px;
+  height: 19px;
+  position: absolute;
+  font-family: "Avinir";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-left: 400px;
+  color: #000000;
+}
+.date {
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: 10px;
+  color: #000000;
+  font-family: "Avinir";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  width: 530px;
+  height: 19px;
+}
+.fromfield-area {
+  position: absolute;
+  /* background-color: red; */
+  margin-left: 100px;
+  margin-top: 120px;
+  width: 1100px;
+  height: 1900px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.fromfield-area-2 {
+  position: absolute;
+  /* background-color: red; */
+  margin-left: 100px;
+  margin-top: 120px;
+  width: 1100px;
+  height: 2000px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.form-text-group {
+  width: 43px;
+  height: 25px;
+  margin-left: 55px;
+  margin-top: 55px;
+  position: absolute;
+}
+.input-group {
+  position: absolute;
+  width: 300px;
+  height: 48px;
+  margin-left: 40px;
+  margin-top: 80px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+.form-text-configuration {
+  width: 43px;
+  height: 25px;
+  margin-left: 420px;
+  margin-top: 55px;
+  position: absolute;
+}
+.input-configuration {
+  position: absolute;
+  width: 300px;
+  height: 48px;
+  margin-left: 400px;
+  margin-top: 80px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+/* .form-text-configuration::after{
+  content: " *";
+  color: red;
+  font-size:20px;
+  margin-bottom: 200px;
+  margin-left: 4px;
+  position: absolute;
+} */
+.form-text-date {
+  width: 43px;
+  height: 25px;
+  margin-left: 760px;
+  margin-top: 50px;
+  position: absolute;
+}
+.input-date {
+  position: absolute;
+  width: 300px;
+  height: 48px;
+  margin-left: 740px;
+  margin-top: 80px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+/* .form-text-configuration::after{
+  content: " *";
+  color: red;
+  font-size:20px;
+  margin-bottom: 200px;
+  margin-left: 4px;
+  position: absolute;
+} */
+.datepicker {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+  opacity: 0;
+}
+.form-text-instructions {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 55px;
+}
+.form-text-ei {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 425px;
+}
+.form-text-revision {
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 770px;
+}
+.text-instructions {
+  position: absolute;
+  width: 300px;
+  height: 96px;
+  margin-left: 40px;
+  background: #ffffff;
+  border: 1px solid #0971ce;
+  border-radius: 8px;
+  margin-top: 240px;
+}
+.text-ei {
+  position: absolute;
+  width: 300px;
+  height: 96px;
+  margin-left: 400px;
+  background: #ffffff;
+  border: 1px solid #0971ce;
+  border-radius: 8px;
+  margin-top: 240px;
+}
+.text-revision {
+  position: absolute;
+  width: 300px;
+  height: 96px;
+  margin-left: 740px;
+  background: #ffffff;
+  border: 1px solid #0971ce;
+  border-radius: 8px;
+  margin-top: 240px;
+}
+.form-text-customer {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 55px;
+}
+.form-text-account {
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 420px;
+}
+.form-text-compilance {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 770px;
+}
+.input-customer {
+  position: absolute;
+  width: 300px;
+  height: 48px;
+  margin-top: 480px;
+  margin-left: 55px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+.input-account {
+  position: absolute;
+  width: 300px;
+  height: 48px;
+  margin-top: 450px;
+  margin-left: 420px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+.input-compliance {
+  position: absolute;
+  width: 300px;
+  height: 48px;
+  margin-top: 470px;
+  margin-left: 770px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+.form-text-documents {
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 55px;
+}
+.input-documents {
+  position: absolute;
+  margin-top: 670px;
+  margin-left: 55px;
+  width: 660px !important;
+  height: 96px;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+.add-button {
+  position: absolute;
+  width: 163px;
+  height: 34px;
+  top: 720px;
+  left: 750px;
+  background: #0971ce;
+  border-radius: 39px;
+}
+.form-text-list {
+  position: absolute;
+  margin-top: 890px;
+  margin-left: 55px;
+}
+.input-list-1 {
+  position: absolute;
+  margin-top: 920px;
+  margin-left: 55px;
+  height: 48px;
+  width: 300px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+.input-list-2 {
+  position: absolute;
+  margin-top: 920px;
+  margin-left: 400px;
+  height: 48px;
+  width: 300px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+.input-list-3 {
+  position: absolute;
+  margin-top: 990px;
+  margin-left: 55px;
+  width: 300px;
+  height: 48px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+.input-list-4 {
+  position: absolute;
+  margin-top: 990px;
+  margin-left: 400px;
+  width: 300px;
+  height: 48px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0971ce !important;
+  border-radius: 8px;
+}
+.aircraft-button {
+  position: absolute;
+  position: absolute;
+  width: 163px;
+  height: 34px;
+  top: 990px;
+  left: 750px;
+  background: #0971ce;
+  border-radius: 39px;
+}
+.form-text-mandated {
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 55px;
+}
+.form-text-trades {
+  position: absolute;
+  margin-top: 1200px;
+  margin-left: 55px;
+}
+.form-text-location {
+  position: absolute;
+  margin-top: 1300px;
+  margin-left: 55px;
+}
+.form-text-duplicate {
+  position: absolute;
+  margin-top: 1400px;
+  margin-left: 55px;
+}
+.form-text-affected {
+  position: absolute;
+  margin-top: 1500px;
+  margin-left: 55px;
+}
+.form-text-report {
+  position: absolute;
+  margin-top: 1600px;
+  margin-left: 55px;
+}
+
+.edit {
+  position: absolute;
+  margin-top: 1800px;
+  margin-left: 55px;
+  width: 138px;
+  height: 48px;
+  background: #eef5fc;
+  border: 1px solid #0971ce;
+  border-radius: 68px;
+}
+.clear {
+  position: absolute;
+  margin-top: 1800px;
+  margin-left: 200px;
+  width: 138px;
+  height: 48px;
+  background: #eef5fc;
+  border: 1px solid #0971ce;
+  border-radius: 68px;
+}
+.next {
+  position: absolute;
+  margin-top: 1800px;
+  margin-left: 900px;
+  width: 138px;
+  height: 48px;
+  background: #eef5fc;
+  border: 1px solid #0971ce;
+  border-radius: 68px;
+}
+.radio-button-1 {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 1150px;
+  display: flex;
+}
+.radio-button-2 {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 1250px;
+  display: flex;
+}
+.radio-button-3 {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 1350px;
+  display: flex;
+}
+.radio-button-4 {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 1450px;
+  display: flex;
+}
+.radio-button-5 {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 1550px;
+  display: flex;
+}
+.radio-button-6 {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 1650px;
+  display: flex;
+}
+.margin-right {
+  margin-right: 10rem;
+}
+.iteam-caution {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 55px;
+}
+.text-caution {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  background: #ffffff;
+  border: 1px solid #0971ce;
+  border-radius: 8px;
+  top: 80px;
+  margin-left: 40px;
+}
+.iteam-comments {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 500px;
+}
+.text-comments-field {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  background: #ffffff;
+  border: 1px solid #0971ce;
+  border-radius: 8px;
+  margin-top: 540px;
+  margin-left: 40px;
+}
+.iteam-description {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 950px;
+}
+.input-description {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  background: #ffffff;
+  border: 1px solid #0971ce;
+  border-radius: 8px;
+  margin-top: 1000px;
+  margin-left: 40px;
+}
+.iteam-notes {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 1400px;
+}
+.input-notes {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  background: #ffffff;
+  border: 1px solid #0971ce;
+  border-radius: 8px;
+  margin-top: 1450px;
+  margin-left: 40px;
+}
+.edit-button-second {
+  position: absolute;
+  margin-top: 1800px;
+  margin-left: 50px;
+  width: 138px;
+  height: 48px;
+  background: #eef5fc;
+  border: 1px solid #0971ce;
+  border-radius: 68px;
+}
+.clear-button-second {
+  position: absolute;
+  margin-top: 1800px;
+  margin-left: 200px;
+  width: 138px;
+  height: 48px;
+  background: #eef5fc;
+  border: 1px solid #0971ce;
+  border-radius: 68px;
+}
+.submit-button {
+  position: absolute;
+  margin-top: 1800px;
+  margin-left: 900px;
+  width: 138px;
+  height: 48px;
+  background: #eef5fc;
+  border: 1px solid #0971ce;
+  border-radius: 68px;
+}
+.previous-button {
+  position: absolute;
+  margin-top: 1800px;
+  margin-left: 750px;
+  width: 138px;
+  height: 48px;
+  background: #eef5fc;
+  border: 1px solid #0971ce;
+  border-radius: 68px;
+}
+.image-item{
+  position: absolute;
+  height: 168px !important;
+  width: 168px !important;
+  margin-top: 150px;
+  margin-left: 500px;
+  
+}
